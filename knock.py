@@ -5,6 +5,7 @@
 # https://github.com/4w4k3/KnockMail
 # Licensed under the BSD-3-Clause
 from smtplib import SMTP
+from absl import logging
 from os import system
 from sys import stdout, exit
 from validate_email import validate_email
